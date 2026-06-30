@@ -1,0 +1,33 @@
+[MALLOC] Address: 0x56d27180b2a0 | Size: 1024 bytes
+[MALLOC] Address: 0x56d27180b6b0 | Size: 28 bytes
+[FREE] Address: 0x56d27180b6b0
+[MALLOC] Address: 0x56d27180b6b0 | Size: 40 bytes
+[MALLOC] Address: 0x56d27180b6e0 | Size: 16 bytes
+[MALLOC] Address: 0x56d27180b700 | Size: 32 bytes
+[FREE] Address: 0x56d27180b6e0
+[CALLOC] Address: 0x56d27180b730 | Size: 20 bytes
+[FREE] Address: 0x56d27180b730
+[CALLOC] Address: 0x56d27180b750 | Size: 80 bytes
+[MALLOC] Address: 0x56d27180b730 | Size: 20 bytes
+[REALLOC] Old: 0x56d27180b730 -> New: 0x56d27180b7b0 | Size: 80 bytes
+[FREE] Address: 0x56d27180b7b0
+[MALLOC] Address: 0x56d27180b730 | Size: 16 bytes
+[REALLOC] Old: 0x56d27180b730 -> New: 0x56d27180b810 | Size: 64 bytes
+[FREE] Address: 0x56d27180b810
+[INVALID FREE DETECTED] Address: 0x7ffe96c04e54
+
+===== FINAL REPORT =====
+Memory Leaks Detected:
+Leak at 0x56d27180b2a0 Size: 1024 bytes
+Leak at 0x56d27180b6b0 Size: 40 bytes
+Leak at 0x56d27180b700 Size: 32 bytes
+Leak at 0x56d27180b750 Size: 80 bytes
+
+===== STATISTICS =====
+Malloc Calls       : 7
+Calloc Calls       : 2
+Realloc Calls      : 2
+Valid Frees        : 5
+Invalid Frees      : 1
+Double Frees       : 0
+Memory Leaks       : 4
