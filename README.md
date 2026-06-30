@@ -258,7 +258,7 @@ The provided test application covers:
 
 ## Author
 
-Vivek
+Malothu Jeswanth
 B.Tech CSE, IIT Ropar
 
 Project developed as part of learning and experimentation with Intel PIN and dynamic binary instrumentation.
